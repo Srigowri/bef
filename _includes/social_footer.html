@@ -1,9 +1,10 @@
 
 <ul class="social_footer">
-  {% if site.google_url %}
-  <li><a href="{{ site.google_url }}" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+  {% if site.gmail_url %}
+  <li><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+<!--   <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:{{site.email}}">{{site.email}}</a></span> -->
   {% else %}
-  <li><a href="#" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>      
+  <li><a href="#" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>      
   {% endif %}
   {% if site.twitter_url %}
   <li><a href="{{ site.twitter_url }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
