@@ -2,8 +2,8 @@
 layout: compress
 ---
 {% include header.html %}
-
-<main class="post_content">
+{% include triangle_animation.html %}
+<main class="post_content ">
   <article class="post">
     <header>
       <div class="post_image">
@@ -18,7 +18,7 @@ layout: compress
     <div class="entry_content">
       {{page.content | markdownify}}
     </div> -->
-    {% include triangle_animation.html %}
+    
     <div class="post_wrapper">
       <footer class="post_footer cf">
         <div class="post_share">
