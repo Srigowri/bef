@@ -1,5 +1,5 @@
 ---
-layout: post_triangle_animation_hide_body
+layout: post_triangle_animation
 title: "Texas: Grand Canyon"
 subtitle: "A Beautiful shot during the night."
 author: "Srigowri"
