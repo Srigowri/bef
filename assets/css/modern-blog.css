@@ -1,3 +1,40 @@
+.main_header .logo {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main_header .logo span {
+  color: #c0334a;
+  font-weight: 400;
+}
+
+.main_header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+#banner,
+.main_header,
+.page-content,
+.post_content,
+.about,
+.contact {
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+
+#banner,
+.main_header {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
 
 /*CARD */
 
