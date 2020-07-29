@@ -11,7 +11,7 @@
           animation-delay: 0.75s;
 }
 .main_header {
-  padding: 2rem;
+/*   padding: 2rem; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -79,7 +79,7 @@
 
 .post header .post_description {
   position: absolute;
-  left: 0;
+/*   left: 0; */
   bottom: 0;
 }
 
