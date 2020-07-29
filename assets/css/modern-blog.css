@@ -66,6 +66,11 @@
           animation-delay: 0.5s;
 }
 
+.post {
+  background-color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
 .post header img {
   width: 100%;
   max-height: 500px;
