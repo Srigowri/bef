@@ -47,7 +47,7 @@ layout: compress
                             </clipPath>
                         </defs>
                         <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
-                               xlink:href="{{ post.image }}"></image>
+                               xlink:href="{{ post.img}}"></image>
                     </svg>
                     <div class="card__content">
                         <i class="card__btn-close fa fa-times"></i>
@@ -73,11 +73,11 @@ layout: compress
     <!-- /container -->
 </div>
 <!-- JS -->
-<script src="js/vendors/trianglify.min.js"></script>
-<script src="js/vendors/TweenMax.min.js"></script>
-<script src="js/vendors/ScrollToPlugin.min.js"></script>
-<script src="js/vendors/cash.min.js"></script>
-<script src="js/card-modern-blog.js"></script>
-<script src="js/modern-blog.js"></script>
+<script src="{{site.baseurl}}/assets/js/vendors/trianglify.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/vendors/TweenMax.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/vendors/ScrollToPlugin.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/vendors/cash.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/card-modern-blog.js"></script>
+<script src="{{site.baseurl}}/assets/js/modern-blog.js"></script>
 </body>
 </html>
