@@ -54,7 +54,7 @@
                         </div>
                         <div class="card__copy">
                             <div class="meta">
-                                <img class="meta__avatar" src="{{ post.avatar }}"/>
+                                <img class="meta__avatar" src={{ "/assets/img/" | prepend: site.baseurl | append : post.avatar}}/>
                                 <span class="meta__author">{{ post.author }}</span>
                                 <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
                             </div>
