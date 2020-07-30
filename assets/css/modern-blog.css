@@ -306,7 +306,7 @@
 }
 .top {
   position: fixed;
-  bottom: 100px;
+  bottom: 30px;
   background-color: #333333;
   -webkit-border-radius: 0.3rem;
           border-radius: 0.3rem;
