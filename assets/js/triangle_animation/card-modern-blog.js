@@ -142,8 +142,8 @@ var Card = (function (window) {
     Card.prototype._floatContainer = function (callback) {
 
         $(document.body).addClass(CLASSES.bodyHidden);
-        $(document.body.header).addClass(CLASSES.bodyHidden); 
-        $(document.body.getElementByClassName("post_content")).addClass(CLASSES.bodyHidden);
+        
+        $(document.getElementByClassName("post_content")).addClass(CLASSES.bodyHidden);
         var TL = new TimelineLite;
 
         var rect = this._container.getBoundingClientRect();
@@ -235,7 +235,7 @@ var Card = (function (window) {
             });
 
             $(document.body).removeClass(CLASSES.bodyHidden);
-            $(document.post_content).removeClass(CLASSES.bodyHidden);
+            $(document.getElementByClassName("post_content")).removeClass(CLASSES.bodyHidden);
 
             this.isOpen = false;
 
