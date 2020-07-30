@@ -324,7 +324,7 @@ body.body--hidden {
 body.body--hidden .header {
 	opacity: 0;
 } */
-body.body--hidden .article {
+body.body--hidden .post {
 	opacity: 0;
 }
 
@@ -333,7 +333,7 @@ body.body--hidden .article {
 	transition: opacity 300ms ease-in-out;
 } */
 
-.article{
+.post{
 	-webkit-transition: opacity 300ms ease-in-out;
 	transition: opacity 300ms ease-in-out;
 }
