@@ -25,6 +25,14 @@ body {
   margin: 0;
 }
 
+body.body--hidden {
+	overflow: hidden;
+}
+
+body.body--hidden .header {
+	opacity: 0;
+}
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -4266,7 +4274,7 @@ cite {
 }
 
 .post {
-  background-color: yellow;
+  background-color: #ffffff;
   margin-bottom: 1.5rem;
 }
 
