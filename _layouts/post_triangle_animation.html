@@ -36,6 +36,7 @@ layout: compress
       </footer>
     </div>
    </article> <!-- End Section Post -->  
+  
    {% include triangle_animation.html %}
   
   <section class="author cf">
@@ -44,13 +45,13 @@ layout: compress
         <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{ site.author-pic }}{% endif %}" alt="Author face">
       </div>
       <div class="author_info">
-        <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}Dwayne Newman{% endif %}</h2>
+        <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}Srigowri M V{% endif %}</h2>
         <p class="author_subtitle">{% if site.about-author %}{{site.about-author}}{% else %}La croix godard blue bottle, vape iceland fingerstache cronut single-origin coffee lyft snackwave normcore small batch.{% endif %}</p>
         <div class="author_social">
           {% if site.email %}
           <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:{{site.email}}">{{site.email}}</a></span>
           {% else %}
-          <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:dwayne@example.com">dwayne@example.com</a></span>
+          <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:srigowri.venkatesha@gmail.com">srigowri.venkatesha@gmail.com</a></span>
           {% endif %}
           
 <!--         {% if site.phone %}
@@ -71,7 +72,7 @@ layout: compress
 
   <section class="recent_box">
     <div class="post_wrapper">
-      <h2 class="recent_title">Recent post</h2>
+      <h2 class="recent_title">Recent posts</h2>
       <div class="recent_list">
         {% for post in site.posts offset:0 limit:6 %}
           {% if post.title %}
@@ -94,6 +95,16 @@ layout: compress
 {% include footer.html %}
 
 {% include arrow_top.html %}
-
-{% include javascripts.html %}
-{% include analytics.html %}
+<script src="{{site.baseurl}}/assets/js/jquery-3.5.1.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jquery.vide.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/custom.js"></script>
+<!-- {% include javascripts.html %} -->
+<!-- {% include analytics.html %} -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ site.analytics }}', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
