@@ -739,7 +739,7 @@ a:focus {
     padding: 0.8rem;
     font-size: 1.2rem;
   }
-  .author .author_image {
+/*   .author .author_image {
     float: none;
     display: block;
     -webkit-border-radius: 50%;
@@ -763,7 +763,7 @@ a:focus {
   }
   .author .author_social span {
     font-size: 0.7rem;
-  }
+  } */
 }
 
 
