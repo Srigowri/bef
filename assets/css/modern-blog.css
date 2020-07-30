@@ -324,8 +324,8 @@ body.body--hidden {
 body.body--hidden .header {
 	opacity: 0;
 }
-.post_content.body--hidden {
-	overflow: hidden;
+body.body--hidden .main {
+	opacity: 0;
 }
 
 .header{
