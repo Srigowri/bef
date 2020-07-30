@@ -9,16 +9,14 @@ baseurl: "/prayana_chitrana" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
-video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: # add banner title
+video: vietnam.mp4 # add banner video. Add your video file to the folder video
+banner-title:  # add banner title
 banner-desc: # add banner description
 
 # Author settings
 author-pic: face.jpg # your photo
 author-name: Srigowri M V # your name
-about-author: "Born in Hassan, a small city in Southern part of India, to Kannadiga parents.
-              I draw motivation from reading Sanskrit hymns, Bhagavat Gita, Shankaracharya's composition when in sadness or dilemma.
-              I derive happiness by doing or knowing stuff"
+about-author: "I derive happiness by doing or knowing stuff. Hope this transcends to happiness by just being"
 # about author
 email: srigowri.venkatesha@gmail.com  # your email
 phone: # your pnone number
