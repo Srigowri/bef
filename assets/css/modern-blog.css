@@ -67,7 +67,7 @@
 }
 
 .post {
-  background-color: yellow;
+  background-color: #ffffff;
   margin-bottom: 1.5rem;
 }
 
@@ -323,6 +323,9 @@ body.body--hidden {
 
 body.body--hidden .header {
 	opacity: 0;
+}
+.post_content.body--hidden {
+	overflow: hidden;
 }
 
 .header{
