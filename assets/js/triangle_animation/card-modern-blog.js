@@ -143,7 +143,7 @@ var Card = (function (window) {
 
         $(document.body).addClass(CLASSES.bodyHidden);
         
-        $(document.getElementsByClassName("post_content")[0]).addClass(CLASSES.bodyHidden);
+        $(document.getElementsByClassName("post")[0]).addClass(CLASSES.bodyHidden);
         var TL = new TimelineLite;
 
         var rect = this._container.getBoundingClientRect();
@@ -235,7 +235,7 @@ var Card = (function (window) {
             });
 
             $(document.body).removeClass(CLASSES.bodyHidden);
-            $(document.getElementByClassName("post_content")).removeClass(CLASSES.bodyHidden);
+            $(document.getElementByClassName("post")).removeClass(CLASSES.bodyHidden);
 
             this.isOpen = false;
 
