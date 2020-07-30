@@ -235,8 +235,8 @@ var Card = (function (window) {
             });
 
             $(document.body).removeClass(CLASSES.bodyHidden);
-            $(document.getElementByClassName("post_content")[0]).removeClass(CLASSES.bodyHidden);
-            $(document.getElementByClassName("post")[0]).removeClass(CLASSES.bodyHidden);
+            $(document.getElementsByClassName("post_content")[0]).removeClass(CLASSES.bodyHidden);
+            $(document.getElementsByClassName("post")[0]).removeClass(CLASSES.bodyHidden);
 
             this.isOpen = false;
 
