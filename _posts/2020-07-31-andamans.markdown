@@ -2,6 +2,8 @@
 layout: post_triangle_animation_data
 title: "Andamans"
 subtitle: "A Beautiful shot during the night."
+data_yml_id : "sikkim"
+folder: /img_folder/sikkim/
 author: "Srigowri"
 avatar: face.jpg
 img: himalayan.jpg  # Add image post (optional)

@@ -3,6 +3,8 @@ layout: post_triangle_animation_data
 title: "Darjeeling"
 subtitle: "A Beautiful shot during the night."
 author: "Srigowri"
+data_yml_id : "sikkim"
+folder: /img_folder/sikkim/
 avatar: face.jpg
 img: himalayan.jpg  # Add image post (optional)
 date: 2020-07-31 12:55:00 +0300
