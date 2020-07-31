@@ -1,1 +1,0 @@
-Normal videos(not gif)
