@@ -29,10 +29,10 @@ permalink: /tags/
   <section class="chapters cf">
       <div class="wrapper flex-row">
         {% for post in site.tags[this_word] %}{% if post.title != null %}
-        <div class="tag_list">
+        <!-- <div class="tag_list">
             <span><a href="{{ post.url }}">{{ post.title }}</a></span>
             <small><span>{{ post.date | date_to_string }}</span></small>
-        </div>
+        </div> -->
         <div class="chapter">
           <a href="{{post.url | prepend: site.baseurl}}">
             {% if post.img %}
