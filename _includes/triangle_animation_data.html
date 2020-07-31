@@ -50,17 +50,17 @@
 
             {% for data in data_yml %}
             
-            <div class="card" data-id="{{ data.link }}">
+            <div class="card" data-id="{{ data.anchor_tag }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
                          preserveAspectRatio="xMidYMid slice">
                         <defs>
-                            <clipPath id="{{ data.link }}-clip-path">
+                            <clipPath id="{{ data.anchor_tag }}-clip-path">
                                 <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
                             </clipPath>
                         </defs>
-                        <image clip-path="url(#{{ data.link }}-clip-path)" width="1920" height="1200"
+                        <image clip-path="url(#{{ data.anchor_tag }}-clip-path)" width="1920" height="1200"
                                xlink:href={{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}} alt="{{data.title}}"></image>
                     </svg>
                     <div class="card__content">
