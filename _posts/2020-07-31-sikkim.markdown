@@ -1,7 +1,8 @@
 ---
-layout: post_triangle_animation
+layout: post_triangle_animation_data
 title: "Sikkim"
 subtitle: "A Beautiful shot during the night."
+data_yml_id : "sikkim"
 author: "Srigowri"
 avatar: face.jpg
 img: himalayan.jpg  # Add image post (optional)

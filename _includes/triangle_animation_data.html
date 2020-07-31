@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>	
+    <meta charset="UTF-8"/>
+    <meta property="og:image" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+<!--     <title>{{ site.title }}</title> -->
+    <meta name="description" content="{{ site.description }}"/>
+    <meta name="keywords" content="{{ site.keywords }}"/>
+    <meta name="author" content="{{ site.author }}"/>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+   <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#d25469">
+<!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#d25469">
+<!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#d25469">
+<!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<!--     <link rel="shortcut icon" href="img/favicon.ico"> -->
+    <!--fonts -->
+    <link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+	<!-- Styles -->
+    <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/modern-blog.css" | prepend: site.baseurl }}">
+
+    <!--[if IE]>
+    <script type="text/javascript" src="js/vendors/html5.min.js"></script>
+    <![endif]-->
+    <script>
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+            var root = document.getElementsByTagName('html')[0];
+            root.setAttribute('class', 'ff');
+        }
+    </script>
+</head>
+<body class="body">
+	
+<!-- <div class="container"> -->
+    <div class="content">
+        <!-- trianglify pattern container -->
+        <div class="pattern pattern--hidden"></div>
+        <!-- cards -->
+        <div class="wrapper">
+            {% assign data_yml = site.data | append:"/" | append: page.data_yml_id %}
+            {% for post in data_yml %}
+            <div class="card" data-id="{{ post.id }}">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="{{ post.id }}-clip-path">
+                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                               xlink:href={{ "/assets/img/" | prepend: site.baseurl | append : post.img}} alt="{{post.title}}"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">{{ post.title }}</h2>
+                            <p class="card__subtitle">{{ post.subtitle }}</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+<!--                                 <img class="meta__avatar" src={{ "/assets/img/" | prepend: site.baseurl | append : post.avatar}}/> -->
+                                <span class="meta__author">{{ page.author }}</span>
+                                <span class="meta__date">{{ page.date | date: "%Y-%m-%d" }}</span>
+                            </div>
+                            {{ post.content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <!-- /cards -->
+        </div>
+    </div>
+    <!-- /container -->
+<!-- </div> -->
+<!-- JS -->
+	
+<script src="{{ "/assets/js/triangle_animation/vendors/trianglify.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/triangle_animation/vendors/TweenMax.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/triangle_animation/vendors/ScrollToPlugin.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/triangle_animation/vendors/cash.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/triangle_animation/card-modern-blog.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/triangle_animation/modern-blog.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>
