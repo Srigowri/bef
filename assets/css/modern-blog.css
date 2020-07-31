@@ -601,6 +601,14 @@ body.body--hidden .post {
 	-webkit-transition: opacity 300ms ease-in-out;		
 	transition: opacity 300ms ease-in-out;
 }	
+body.body--hidden .author {
+	opacity: 0;		
+}
+.author{
+	-webkit-transition: opacity 300ms ease-in-out;		
+	transition: opacity 300ms ease-in-out;
+}	
+
 a {
 	text-decoration: none;
 	color: #de6551;
