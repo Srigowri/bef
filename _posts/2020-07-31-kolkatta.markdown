@@ -1,6 +1,6 @@
 ---
 layout: post_triangle_animation
-title: "Texas: Grand Canyon"
+title: "Andamans"
 subtitle: "A Beautiful shot during the night."
 author: "Srigowri"
 avatar: face.jpg
