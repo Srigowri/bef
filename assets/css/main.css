@@ -4607,7 +4607,7 @@ cite {
   height: 100vh;
   min-height: 700px;
   position: relative;
-  background-image: url(../img/bg_about.jpg);
+  /* background-image: url(../img/bg_about.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
