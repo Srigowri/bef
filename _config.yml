@@ -10,8 +10,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: vietnam/vietnam # add banner video. Add your video file to the folder video
-banner-title: Just Be# add banner title
-banner-desc: The hot dang direction you move in is more important than the ding dong speed# add banner description
+banner-title: Just Be # add banner title
+banner-desc: The hot dang direction you move in is more important than the your ding dong speed # add banner description
 
 # Author settings
 author-pic: face.jpg # your photo
