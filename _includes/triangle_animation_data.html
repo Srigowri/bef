@@ -60,7 +60,7 @@
                                 <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
                             </clipPath>
                         </defs>
-                        <image clip-path="url(#{{ page.id }}-clip-path)" width="1920" height="1200"
+                        <image clip-path="url(##{{ page.id }}-clip-path)" width="1920" height="1200"
                                xlink:href={{ "/assets" | prepend: site.baseurl | append: page.folder | append : post.img}} alt="{{post.title}}"></image>
                     </svg>
                     <div class="card__content">
@@ -83,7 +83,6 @@
             </div>
             {% endfor %}
             <!-- /cards -->
-        <h1>{{page.id}}</h1>
         </div>
     </div>
     <!-- /container -->
