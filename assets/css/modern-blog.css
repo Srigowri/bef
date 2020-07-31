@@ -595,21 +595,21 @@ body.body--hidden {
 	-webkit-transition: opacity 300ms ease-in-out;
 	transition: opacity 300ms ease-in-out;
 } */
-body.body--hidden .post, .recent_box,.author {
+body.body--hidden .post {
 	opacity: 0;		
 }
-.post,.recent_box,.author{
+.post {
 	-webkit-transition: opacity 300ms ease-in-out;		
 	transition: opacity 300ms ease-in-out;
 }	
-/* body.body--hidden .author {
+body.body--hidden .author {
 	opacity: 0;		
 }
 .author{
 	-webkit-transition: opacity 300ms ease-in-out;		
 	transition: opacity 300ms ease-in-out;
 }	
-body.body--hidden .recent_box {
+/* body.body--hidden .recent_box {
 	opacity: 0;		
 }
 .recent_box{
