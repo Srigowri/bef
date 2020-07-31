@@ -1,4 +1,4 @@
-##I have made use of the following two themes,
+## I have made use of the following two themes,
 Bef for the front page and few posts
 Jekyll Modern Blog for most of the posts.
 
