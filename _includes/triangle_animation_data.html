@@ -47,6 +47,7 @@
         <!-- cards -->
         <div class="wrapper">
             {% assign data_yml = site.data | append:"/" | append: page.data_yml_id %}
+            <h1>{{ data_yml }}</h1>
             {% for post in data_yml %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
@@ -59,7 +60,7 @@
                             </clipPath>
                         </defs>
                         <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
-                               xlink:href={{ "/assets/img/" | prepend: site.baseurl | append : post.img}} alt="{{post.title}}"></image>
+                               xlink:href={{ "/assets" | prepend: site.baseurl | append: page.folder | append : post.img}} alt="{{post.title}}"></image>
                     </svg>
                     <div class="card__content">
                         <i class="card__btn-close fa fa-times"></i>
