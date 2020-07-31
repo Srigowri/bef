@@ -1,6 +1,6 @@
 ---
 layout: post_triangle_animation
-title: "Sikkim"
+title: "Darjeeling"
 subtitle: "A Beautiful shot during the night."
 author: "Srigowri"
 avatar: face.jpg
