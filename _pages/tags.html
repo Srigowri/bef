@@ -7,7 +7,7 @@ permalink: /tags/
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 
-<script type="text/javascript" src="/assets/js/typing-text.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/typing-text.min.js" | prepend: site.baseurl }}"></script>
 <section id="tags">
   <div class="back_to_home">
     <a href="{{site.baseurl}}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>        
