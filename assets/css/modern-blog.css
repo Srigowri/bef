@@ -608,7 +608,13 @@ body.body--hidden .author {
 	-webkit-transition: opacity 300ms ease-in-out;		
 	transition: opacity 300ms ease-in-out;
 }	
-
+body.body--hidden .recent_box {
+	opacity: 0;		
+}
+.recent_box{
+	-webkit-transition: opacity 300ms ease-in-out;		
+	transition: opacity 300ms ease-in-out;
+}	
 a {
 	text-decoration: none;
 	color: #de6551;
