@@ -46,7 +46,7 @@
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
-            {% assign data_yml = site.data | append:"/" | append: page.data_yml_id %}
+            {% assign data_yml = site.data[page.data_yml_id] %}
             <h1>{{ data_yml }}</h1>
             {% for post in data_yml %}
             <div class="card" data-id="{{ post.id }}">
