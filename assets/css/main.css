@@ -3969,11 +3969,12 @@ cite {
 }
 .main_header nav a {
   color: #ffffff;
-  text-decoration: none;
-  /* margin-left: 2rem; */
-  margin: 0 0.5% 1% 0.5%;
-  display:inline-block;
-  /* vertical-align: middle; */
+    text-decoration: none;
+    /* margin-left: 36rem; */
+    margin: 0% 1% 0% 4.5%;
+    display: inline-block;
+    /* vertical-align: middle; */
+    font-size: 26px;
 }
 
 #banner {
@@ -4756,6 +4757,9 @@ cite {
     width: 49%;
     margin: 0 0.5% 1% 0.5%;
   }
+  .main_header nav{
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -4840,7 +4844,8 @@ cite {
     font-size: 0.7rem;
   }
   .main_header nav{
-    width: 60%;
+    width: 40%;
+    font-size:20px;
   }
 }
 
@@ -4866,8 +4871,9 @@ cite {
     font-size: 1rem;
   }
   .main_header nav{
-    width: 80%;
-    /* margin: 0 0.5% 2% 0.5%; */
+    width: 46%;
+    /* margin: 0 0 0 28%; */
+    font-size: 18px;
   }
 }
 
@@ -4920,8 +4926,9 @@ cite {
     font-size: 1.10rem;
   }
   .main_header nav {
-    width: 95%;
-    /* margin: 0 0.5% 2% 0.5%; */
+    width: 40%;
+    display: inherit;
+    font-size: 16px;
   }
 
 }
@@ -4937,5 +4944,6 @@ cite {
   }
   .main_header nav {
     width: 100%;
+    display:inherit;
   }
 }
