@@ -4453,7 +4453,7 @@ cite {
   font-size: 1rem;
 }
 
-.recent_box .recent_list .recent_item_post_1 {
+/* .recent_box .recent_list .recent_item_post_1 {
   background-image: url(../images/canyon.jpg);
 }
 
@@ -4463,7 +4463,7 @@ cite {
 
 .recent_box .recent_list .recent_item_post_3 {
   background-image: url(../images/sweden.jpg);
-}
+} */
 
 #tags {
   background-color: #ffffff;
