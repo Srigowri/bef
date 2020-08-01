@@ -4845,7 +4845,9 @@ cite {
   }
   .main_header nav{
     width: 40%;
-    font-size:20px;
+  }
+  .main_header nav a {
+    font-size: 20px;
   }
 }
 
@@ -4872,7 +4874,8 @@ cite {
   }
   .main_header nav{
     width: 46%;
-    /* margin: 0 0 0 28%; */
+  }
+  .main_header nav a {
     font-size: 18px;
   }
 }
@@ -4930,7 +4933,9 @@ cite {
     display: inherit;
     font-size: 16px;
   }
-
+  .main_header nav a {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
