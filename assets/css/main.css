@@ -4366,7 +4366,7 @@ cite {
 }
 
 .author .author_image {
-  float: left;
+  /* float: left; */
   display: inline-block;
   -webkit-border-radius: 50%;
           border-radius: 50%;
