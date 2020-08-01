@@ -3962,10 +3962,17 @@ cite {
   font-weight: 400;
 }
 
+.main_header nav{
+  width: 32%;
+  float: right;
+
+}
 .main_header nav a {
   color: #ffffff;
   text-decoration: none;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
+  display:inline-block;
+  /* vertical-align: middle; */
 }
 
 #banner {
@@ -4904,6 +4911,10 @@ cite {
     padding: 0.3rem 0.8rem;
     font-size: 1.10rem;
   }
+  .main_header nav {
+    width: 80%;
+  }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -4914,5 +4925,8 @@ cite {
   .post header .post_title {
     padding: 0.8rem;
     font-size: 1.2rem;
+  }
+  .main_header nav {
+    width: 100%;
   }
 }
