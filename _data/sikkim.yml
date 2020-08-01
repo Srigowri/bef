@@ -2,18 +2,18 @@
   subtitle: Subtitle
   img: img1.jpg
   date: 1970-07-31 12:55:00 +0300
-  content: Content for the card1
-  anchor_tag: "/a"
+  content: Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "a"
 
 - title: Title2 
   subtitle: Subtitle2
   img: img2.jpg
   date: 1970-07-31 12:55:00 +0300
-  content: Content for the card2
-  anchor_tag: "/b"
+  content: Content for the card2Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "b"
 - title: Title3
   subtitle: Subtitle3
   img: img3.jpg
   date: 1970-07-31 12:55:00 +0300
   content: Content for the card3
-  anchor_tag: "/c"
+  anchor_tag: "c"
