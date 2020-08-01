@@ -3971,6 +3971,7 @@ cite {
   color: #ffffff;
   text-decoration: none;
   /* margin-left: 2rem; */
+  margin: 0 0.5% 1% 0.5%;
   display:inline-block;
   /* vertical-align: middle; */
 }
@@ -4838,6 +4839,9 @@ cite {
   .author .author_social span {
     font-size: 0.7rem;
   }
+  .main_header nav{
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -4860,6 +4864,10 @@ cite {
   }
   p {
     font-size: 1rem;
+  }
+  .main_header nav{
+    width: 80%;
+    /* margin: 0 0.5% 2% 0.5%; */
   }
 }
 
@@ -4912,7 +4920,8 @@ cite {
     font-size: 1.10rem;
   }
   .main_header nav {
-    width: 80%;
+    width: 95%;
+    /* margin: 0 0.5% 2% 0.5%; */
   }
 
 }
