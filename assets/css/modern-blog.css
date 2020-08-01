@@ -105,7 +105,9 @@
 .post_footer span {
   text-transform: uppercase;
   font-size: 0.8rem;
-  color: #525c65;
+  /* color: #525c65; */
+  color: black;
+  font-weight: bold;
 }
 
 .post_footer a {
