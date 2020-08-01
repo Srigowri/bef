@@ -9,7 +9,9 @@ layout: compress
 <link rel="mask-icon" href= "{{ "/favicon/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5"><main class="post_content ">
  -->
 {% include triangle_animation_head.html %}
-<!-- Do i want to keep the header.html  here -->
+<!-- 
+  <!- - {% include triangle_animation_head.html %}  - ->
+-->
 <header class="main_header">
   <a href="{{site.baseurl}}/" class="logo">Home</a>
 </header> 
@@ -23,18 +25,17 @@ layout: compress
         <h1 class="post_title">{{page.title}}</h1>
       </div>
     </header> <!-- End Header -->
-<!-- 
+
     <div class="entry_content">
       {{page.content | markdownify}}
-    </div> -->
+    </div>
     
-    <div class="post_wrapper">
+    <!-- <div class="post_wrapper">
       <footer class="post_footer cf">
         <div class="post_share">
           <span>Share:</span>
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-<!--           <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a> -->
         </div>
         <div class="post_tag">
           <span>Tags:</span>
@@ -43,7 +44,7 @@ layout: compress
           {% endfor %}
         </div>
       </footer>
-    </div>
+    </div> -->
    </article> <!-- End Section Post -->  
   
    {% include triangle_animation_data.html %}
@@ -96,7 +97,7 @@ layout: compress
     </div>
   </section>
 <!--  
-   {% include disqus.html %} 
+   <!- - {% include disqus.html %}  - ->
   -->
 </main>
 
