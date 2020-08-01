@@ -3982,8 +3982,9 @@ cite {
 }
 
 #banner .content .title, #banner .content .sub_title {
-  text-align: center;
-  color: #ffffff;
+  text-align: right;
+  /* color: #ffffff; */
+  color: #321c1c;
 }
 
 #banner .content .title {
@@ -3993,7 +3994,7 @@ cite {
 
 #banner .content .sub_title {
   font-weight: 400;
-  font-size: 1.35rem;
+  font-size: 1.40rem;
   margin: 0 auto 2rem auto;
   line-height: 2.5rem;
   font-style: italic;
