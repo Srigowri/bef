@@ -618,6 +618,14 @@ body.body--hidden .recent_box {
 	-webkit-transition: opacity 300ms ease-in-out;		
 	transition: opacity 300ms ease-in-out;
 }	
+body.body--hidden .top {
+  opacity: 0;		
+  right: 30px;
+}
+.top{
+	-webkit-transition: opacity 300ms ease-in-out;		
+	transition: opacity 300ms ease-in-out;
+}	
 a {
 	text-decoration: none;
 	color: #de6551;
