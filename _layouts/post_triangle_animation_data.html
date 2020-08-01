@@ -9,9 +9,9 @@ layout: compress
 <link rel="mask-icon" href= "{{ "/favicon/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5"><main class="post_content ">
  -->
 {% include triangle_animation_head.html %}
-<!-- 
-  <!- - {% include triangle_animation_head.html %}  - ->
--->
+{%comment%}
+{% include header.html %} 
+{%endcomment%}
 <header class="main_header">
   <a href="{{site.baseurl}}/" class="logo">Home</a>
 </header> 
@@ -96,9 +96,10 @@ layout: compress
       </div>
     </div>
   </section>
-<!--  
-   <!- - {% include disqus.html %}  - ->
-  -->
+
+  {%comment%}
+  {% include disqus.html %} 
+{%endcomment%}
 </main>
 
 
