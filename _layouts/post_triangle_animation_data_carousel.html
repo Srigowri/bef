@@ -17,12 +17,12 @@ layout: compress
         {% for data in data_yml %}
         <div class="carousel_img slideInLeft">
             <img src="{{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}}" alt="{{data.title}}">	
-            <div class="carousel_caption">data.caption</div>
+            <div class="carousel_caption">{{ data.caption }}</div>
             {% increment img_counter %}
         </div>	
         {% endfor %}
         <br>
-        {% for i in (1,img_counter) %}
+        {% for i in (1..img_counter) %}
           <div style="text-align:center"><span class="carousel_dot"></span></div>
         {% endfor %}
         {% include carousel_custom.html %}
