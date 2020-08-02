@@ -30,7 +30,7 @@
 .carousel_img{
   display: none;
 }
-.carousel_caption {
+/* .carousel_caption {
   font-size: 15px;
   position: absolute;
   /* bottom: 24px; */
@@ -42,7 +42,7 @@
   margin: 0;
   color: #ffffff;
   /* background-color: rgba(210, 84, 105, 0.4); */
-}
+} */
 .carousel_dot {
   height: 10px;
   width: 10px;
@@ -137,7 +137,7 @@
 .post header .post_description {
   position: absolute;
   left: 0;
-  bottom: 24px;
+  bottom: 0px;
 }
 
 .post header .post_meta {
