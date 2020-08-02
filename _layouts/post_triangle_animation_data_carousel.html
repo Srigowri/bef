@@ -15,7 +15,7 @@ layout: compress
 
         {% for data in data_yml %}
         <div class="carousel_img slideInLeft">
-            <img src={{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}} alt="{{data.title}}">	
+            <img src="{{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}}" alt="{{data.title}}">	
             <br>
             <div style="text-align:center"><span class="carousel_dot"></span></div>
         </div>	
