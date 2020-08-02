@@ -4843,12 +4843,12 @@ cite {
     font-size: 0.7rem;
   }
   .main_header .logo {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     margin-right: 1rem;
   } 
   .main_header nav a {
     margin-left: 10px;
-    font-size: 85%;
+    font-size: 1.5rem;
     display: inline;
   }
 }
@@ -4888,7 +4888,7 @@ cite {
 @media only screen and (max-width: 550px) {
   .post header .post_meta {
     padding: 0.3rem 1rem;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .post header .post_title {
     font-size: 1.3rem;
@@ -4939,7 +4939,7 @@ cite {
   } 
   .main_header nav a {
     margin-left: 10px;
-    font-size: 85%;
+    font-size: 90%;
     display: inline;
   }
 }
@@ -4947,10 +4947,22 @@ cite {
 @media only screen and (max-width: 320px) {
   .post header .post_meta {
     padding: 0.1rem 0.8rem;
-    font-size: 0.3rem;
+    font-size: 0.5rem;
   }
   .post header .post_title {
     padding: 0.8rem;
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+  .main_header .logo {
+    font-size: 1.18rem;
+    margin-right: 1rem;
+  } 
+  .main_header nav a {
+    margin-left: 9px;
+    font-size: 75%;
+    display: inline;
   }
 }
