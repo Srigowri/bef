@@ -1,5 +1,5 @@
 ---
-layout: post_triangle_animation_data
+layout: post_triangle_animation_data_carousel
 title: "Sikkim"
 subtitle: "A Beautiful shot during the night."
 data_yml_id : "sikkim"
