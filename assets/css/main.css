@@ -4472,7 +4472,7 @@ cite {
   padding: 2rem 1rem 4rem;
   width: 960px;
   max-width: 90%;
-  margin: 7rem auto 7rem;
+  margin: 2rem auto 7rem;
 }
 
 #tags h1 {
@@ -4526,8 +4526,8 @@ cite {
 }
 
 #tags .back_to_home {
-  text-align: center;
-  margin-top: 4rem;
+  text-align: left;
+  margin-top: 1rem;
 }
 
 #tags .back_to_home a {
