@@ -15,7 +15,7 @@ var create_carousel = (function (window) {
         }
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " carousel_active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        setTimeout(init, 2000); // Change image every 2 seconds
     }
 
     // Expose methods.
