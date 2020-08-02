@@ -4871,11 +4871,11 @@ cite {
 
 @media only screen and (max-width: 600px) {
   .chapters {
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   .chapters .chapter {
     width: 99%;
-    margin: 0 0.5% 2% 0.5%;
+    margin: 0 0.5% 4% 0.5%;
   }
   .copyright p {
     font-size: 0.6rem;
