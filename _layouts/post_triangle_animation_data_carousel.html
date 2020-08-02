@@ -11,7 +11,7 @@ layout: compress
   <article class="post">
     <header>
       <div class="post_image">
-        {% include carousel_custom.html %}
+        
         {% assign data_yml = site.data[page.data_yml_id] %}
         {% for data in data_yml %}
         <div class="carousel_img slideInLeft">
@@ -20,6 +20,7 @@ layout: compress
             <div style="text-align:center"><span class="carousel_dot"></span></div>
         </div>	
         {% endfor %}
+        {% include carousel_custom.html %}
       </div>
 
       <div class="post_description">
