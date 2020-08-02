@@ -41,7 +41,7 @@
   font-size: 1.1rem;
   margin: 0;
   color: #ffffff;
-  background-color: rgba(210, 84, 105, 0.4);
+  /* background-color: rgba(210, 84, 105, 0.4); */
 }
 .carousel_dot {
   height: 10px;
@@ -137,7 +137,7 @@
 .post header .post_description {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 24px;
 }
 
 .post header .post_meta {
