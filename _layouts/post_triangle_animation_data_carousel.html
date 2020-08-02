@@ -19,10 +19,10 @@ layout: compress
             <img src="{{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}}" alt="{{data.title}}">	
         </div>	
         {% endfor %}
-        <div style="text-align:center"></div>
-        {% for data in data_yml %}
-          <span class="carousel_dot"></span>
-        {% endfor %}
+        <div style="text-align:center">
+          {% for data in data_yml %}
+            <span class="carousel_dot"></span>
+          {% endfor %}
         </div>
         {% include carousel_custom.html %}
       </div>
