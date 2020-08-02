@@ -4479,17 +4479,23 @@ cite {
   text-align: center;
   margin: 2rem 0 3rem;
   color: #262626;
+  font-size: 1.7rem;
 }
 
 #tags .tags {
   padding: 0;
   margin-bottom: 3rem;
   list-style: none;
+  /* new addition */
+  width: 100%;
+  overflow: auto;
+
 }
 
 #tags .tags li {
   float: left;
-  margin: 0 0.5rem 0.5rem 0;
+  /* margin: 0 0.5rem 0.5rem 0; */
+  margin: 0 0 0.5rem 0.2rem;
   border: 1px solid #c0334a;
   -webkit-border-radius: 0.5rem;
           border-radius: 0.5rem;
@@ -4498,6 +4504,10 @@ cite {
           box-shadow: 0 2px 0 #c0334a;
   -webkit-transition: all .35s;
   transition: all .35s;
+  /* new additions */
+  font-size: 12px;
+  width:24%;
+  text-align: center;
 }
 
 #tags .tags li:hover {
@@ -4507,7 +4517,8 @@ cite {
 #tags .tags a {
   display: inline-block;
   text-decoration: none;
-  padding: 0.4rem 0.8rem;
+  /* padding: 0.4rem 0.8rem; */
+  padding: 0.2rem 0.1rem 0.2rem 0.1rem;
   color: #ffffff;
 }
 
@@ -4762,6 +4773,7 @@ cite {
 }
 
 @media only screen and (max-width: 768px) {
+  
   #banner .content {
     padding: 7rem 0;
   }
@@ -4851,6 +4863,10 @@ cite {
     font-size: 1.5rem;
     display: inline;
   }
+  #tags .tags li {
+    font-size: 15px;
+    width:24%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -4882,6 +4898,10 @@ cite {
     margin-left: 10px;
     font-size: 85%;
     display: inline;
+  }
+  #tags .tags li {
+    font-size: 12px;
+    width:23%;
   }
 }
 
@@ -4942,6 +4962,10 @@ cite {
     font-size: 80%;
     display: inline;
   }
+  #tags .tags li {
+    font-size: 10px;
+    width:23%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -4962,6 +4986,10 @@ cite {
     font-size: 66%;
     display: inline;
   }
+  #tags .tags li {
+    font-size: 10px;
+    width:30%;
+  }
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
@@ -4973,5 +5001,9 @@ cite {
     margin-left: 9px;
     font-size: 75%;
     display: inline;
+  }
+  #tags .tags li {
+    font-size: 10px;
+    width:32%;
   }
 }
