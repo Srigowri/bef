@@ -17,7 +17,8 @@ layout: compress
         {% for data in data_yml %}
         <div class="carousel_img slideInLeft">
             <img src="{{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}}" alt="{{data.title}}">	
-        </div>	
+            <div class="carousel_caption">{{ data.caption }}</div>
+          </div>	
         {% endfor %}
         <div style="text-align:center">
           {% for data in data_yml %}
