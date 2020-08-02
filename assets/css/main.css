@@ -4865,12 +4865,6 @@ cite {
   p {
     font-size: 1rem;
   }
-  /* .main_header nav{
-    width: 46%;
-  }
-  .main_header nav a {
-    font-size: 18px;
-  } */
 }
 
 @media only screen and (max-width: 550px) {
@@ -4921,14 +4915,15 @@ cite {
     padding: 0.3rem 0.8rem;
     font-size: 1.10rem;
   }
-  /* .main_header nav {
-    width: 40%;
-    display: inherit;
-    font-size: 16px;
-  }
+  .main_header .logo {
+    font-size: 1rem;
+    margin-right: 1rem;
+  } 
   .main_header nav a {
-    font-size: 16px;
-  } */
+    margin-left: 10px;
+    font-size: 0.7rem;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -4939,15 +4934,5 @@ cite {
   .post header .post_title {
     padding: 0.8rem;
     font-size: 1.2rem;
-  }
-   .main_header .logo {
-    width: 100%;
-    font-size: 1rem;
-    margin-right: 1rem;
-  } 
-  .main_header nav a {
-    margin-left: 10px;
-    font-size: 0.7rem;
-    display: inline;
   }
 }
