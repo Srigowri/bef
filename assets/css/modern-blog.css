@@ -30,7 +30,18 @@
 .carousel_img{
   display: none;
 }
-
+.carousel_caption {
+  font-size: 15px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin: 0;
+  color: #ffffff;
+  background-color: rgba(210, 84, 105, 0.4);
+}
 .carousel_dot {
   height: 15px;
   width: 15px;
