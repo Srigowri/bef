@@ -3962,11 +3962,7 @@ cite {
   font-weight: 400;
 }
 
-/* .main_header nav{
-  width: 32%;
-  float: right;
 
-} */
 .main_header nav a {
   color: #ffffff;
   text-decoration: none;
@@ -4944,8 +4940,14 @@ cite {
     padding: 0.8rem;
     font-size: 1.2rem;
   }
-  /* .main_header nav {
+   .main_header .logo {
     width: 100%;
-    display:inherit;
-  } */
+    font-size: 1rem;
+    margin-right: 1rem;
+  } 
+  .main_header nav a {
+    margin-left: 10px;
+    font-size: 0.7rem;
+    display: inline;
+  }
 }
