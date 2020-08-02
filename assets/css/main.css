@@ -4836,12 +4836,15 @@ cite {
   .author .author_social span {
     font-size: 0.7rem;
   }
-  /* .main_header nav{
-    width: 40%;
-  }
+  .main_header .logo {
+    font-size: 1rem;
+    margin-right: 1rem;
+  } 
   .main_header nav a {
-    font-size: 20px;
-  } */
+    margin-left: 10px;
+    font-size: 0.7rem;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -4914,15 +4917,6 @@ cite {
   .social_footer a {
     padding: 0.3rem 0.8rem;
     font-size: 1.10rem;
-  }
-  .main_header .logo {
-    font-size: 1rem;
-    margin-right: 1rem;
-  } 
-  .main_header nav a {
-    margin-left: 10px;
-    font-size: 0.7rem;
-    display: inline;
   }
 }
 
