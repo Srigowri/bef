@@ -4934,12 +4934,12 @@ cite {
     font-size: 1.10rem;
   }
   .main_header .logo {
-    font-size: 1.4rem;
-    margin-right: 1rem;
+    font-size: 1.35rem;
+    margin-right: 0.8rem;
   } 
   .main_header nav a {
-    margin-left: 10px;
-    font-size: 90%;
+    margin-left: 8px;
+    font-size: 80%;
     display: inline;
   }
 }
