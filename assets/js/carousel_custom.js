@@ -1,7 +1,8 @@
 
 var create_carousel = (function (window) {
-
-    var init = function () {
+    var slideIndex = 0;
+    startCarousel();
+    var startCarousel = function () {
         var i;
         var slides = document.getElementsByClassName("carousel_img");
         var dots = document.getElementsByClassName("carousel_dot");
@@ -15,15 +16,15 @@ var create_carousel = (function (window) {
         }
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " carousel_active";
-        setTimeout(init, 2000); // Change image every 2 seconds
+        setTimeout(startCarousel, 2000); // Change image every 2 seconds
     }
 
     // Expose methods.
     return {
-        init: init
+        startCarousel: startCarousel
     };
 
 })(window);
 
 // Kickstart Demo.
-window.onload = create_carousel.init;
+window.onload = create_carousel.startCarousel;
