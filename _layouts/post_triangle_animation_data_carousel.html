@@ -14,10 +14,10 @@ layout: compress
         {% assign data_yml = site.data[page.data_yml_id] %}
 
         {% for data in data_yml %}
-        <div class="img_carousel slideInLeft">
+        <div class="carousel_img slideInLeft">
             <img src={{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}} alt="{{data.title}}">	
             <br>
-            <div style="text-align:center"><span class="dot"></span></div>
+            <div style="text-align:center"><span class="carousel_dot"></span></div>
         </div>	
 
         {% endfor %}
