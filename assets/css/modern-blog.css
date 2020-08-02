@@ -27,6 +27,10 @@
           animation-name: slideInRight;
 }
 
+.carousel_img{
+  display: none;
+}
+
 .carousel_dot {
   height: 15px;
   width: 15px;
