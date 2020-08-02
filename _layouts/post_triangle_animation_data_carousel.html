@@ -17,8 +17,11 @@ layout: compress
         {% for data in data_yml %}
         <div class="carousel_img slideInLeft">
             <img src="{{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}}" alt="{{data.title}}">	
-            <div class="carousel_caption">{{ data.caption }}</div>
-          </div>	
+            <div class="post_description">
+              <p class="post_meta">{{data.date | date: '%Y, %b %d'}}</p>
+              <h1 class="post_title">{{data.caption}}</h1>
+            </div>
+        </div>	
         {% endfor %}
         <div style="text-align:center">
           {% for data in data_yml %}
@@ -28,10 +31,6 @@ layout: compress
         {% include carousel_custom.html %}
       </div>
 
-      <div class="post_description">
-        <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
-        <h1 class="post_title">{{page.title}}</h1>
-      </div>
       
     </header> <!-- End Header -->
 
