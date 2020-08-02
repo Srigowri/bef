@@ -4750,9 +4750,15 @@ cite {
     width: 49%;
     margin: 0 0.5% 1% 0.5%;
   }
-  /* .main_header nav{
-    width: 40%;
-  } */
+  .main_header .logo {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+  } 
+  .main_header nav a {
+    margin-left: 10px;
+    font-size: 85%;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -4837,12 +4843,12 @@ cite {
     font-size: 0.7rem;
   }
   .main_header .logo {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-right: 1rem;
   } 
   .main_header nav a {
     margin-left: 10px;
-    font-size: 0.7rem;
+    font-size: 85%;
     display: inline;
   }
 }
@@ -4867,6 +4873,15 @@ cite {
   }
   p {
     font-size: 1rem;
+  }
+  .main_header .logo {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+  } 
+  .main_header nav a {
+    margin-left: 10px;
+    font-size: 85%;
+    display: inline;
   }
 }
 
@@ -4917,6 +4932,15 @@ cite {
   .social_footer a {
     padding: 0.3rem 0.8rem;
     font-size: 1.10rem;
+  }
+  .main_header .logo {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+  } 
+  .main_header nav a {
+    margin-left: 10px;
+    font-size: 85%;
+    display: inline;
   }
 }
 
