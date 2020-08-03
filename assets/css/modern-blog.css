@@ -973,6 +973,10 @@ a:focus {
 }
 
 @media only screen and (max-width: 320px) {
+  .post_header .post_description{
+    position: absolute;
+    bottom: 30px;
+  }
   .post header .post_meta {
     padding: 0.1rem 0.8rem;
     font-size: 0.3rem;
@@ -1054,6 +1058,6 @@ a:focus {
 
   .post_header .post_description{
     position: absolute;
-    bottom: 25px;
+    bottom: 30px;
   }
   }
