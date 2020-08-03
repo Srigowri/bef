@@ -21,7 +21,7 @@ function startCarousel() {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " carousel_active";
-    timer = setTimeout(startCarousel, 2000);
+    timer = setTimeout(startCarousel, 1500);
 }
 function plusSlides(position) {
     
@@ -38,7 +38,7 @@ function plusSlides(position) {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " carousel_active";
    
-    timer = setTimeout(showSlides, 2000);
+    timer = setTimeout(startCarousel, 1500);
 }
 function currentSlide(index) {
     
@@ -55,7 +55,7 @@ function currentSlide(index) {
     }
     slides[index-1].style.display = "block";  
     dots[index-1].className += " carousel_active";
-    timer = setTimeout(showSlides, 2000);
+    timer = setTimeout(startCarousel, 1500);
 }
 
 </script>
