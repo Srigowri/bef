@@ -19,17 +19,19 @@ layout: compress
             <img src="{{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}}" alt="{{data.title}}">	
             <div class="post_description">
               <p class="post_meta">{{data.date | date: '%Y, %b %d'}}</p>
-              <h1 class="post_title">{{data.caption}}</h1>
+              <h1 class="post_title"  style="background-color: transparent">{{data.caption}}</h1>
             </div>
         </div>	
         {% endfor %}
-        <div style="text-align:center">
+      </div>
+      <br>
+      <div style="text-align:center">
           {% for data in data_yml %}
             <span class="carousel_dot"></span>
           {% endfor %}
-        </div>
-        {% include carousel_custom.html %}
       </div>
+      {% include carousel_custom.html %}
+      
 
       
     </header> <!-- End Header -->
