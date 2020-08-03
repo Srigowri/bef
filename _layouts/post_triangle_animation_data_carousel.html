@@ -97,11 +97,13 @@ layout: compress
       <div class="recent_list">
         {% for post in site.posts offset:0 limit:6 %}
           {% if post.title %}
+          <div class = "recent_post">
             <a href="{{ post.url | prepend: site.baseurl }}"
               class="recent_item"
               style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
                 <span>{{ post.title }}</span>
             </a>
+          </div>
           {% endif %}
         {% endfor %}
       </div>
