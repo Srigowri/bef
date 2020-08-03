@@ -773,7 +773,7 @@ a:focus {
 
 .wrapper {
 	overflow: auto;
-	width: 95%;
+	width: 100%;
 	max-width: 1366px;
 	margin: 0 auto;
 }
@@ -837,6 +837,19 @@ a:focus {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
 }
+@media only screen and (max-width: 960px) {
+  .card{width: 29%;display: inline;padding-bottom: 30%;}
+  .card__container{
+      height:80%;
+  }
+  .card__title {
+      font-size: 2.5em;
+  }
+  .card__subtitle {
+      font-size: 2em;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .social_footer {
     padding: 2rem 0;
@@ -862,7 +875,19 @@ a:focus {
   .author .author_social span {
     font-size: 0.7rem;
   }
+  .card{width: 46%;display: inline;padding-bottom: 48%;}
+.card__container{
+    height:95%;
 }
+.card__title {
+    font-size: 4em;
+}
+.card__subtitle {
+    font-size: 3em;
+}
+}
+
+
 
 @media only screen and (max-width: 550px) {
   .carousel_dot {
@@ -916,6 +941,16 @@ a:focus {
     padding: 0.3rem 0.8rem;
     font-size: 1.10rem;
   }
+  .card{width: 46%;display: inline;padding-bottom: 48%;}
+  .card__container{
+      height:95%;
+  }
+  .card__title {
+      font-size: 2em;
+  }
+  .card__subtitle {
+      font-size: 1.7em;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -926,6 +961,16 @@ a:focus {
   .post header .post_title {
     padding: 0.8rem;
     font-size: 1.2rem;
+  }
+  .card{width: 46%;display: inline;padding-bottom: 48%;}
+  .card__container{
+      height:95%;
+  }
+  .card__title {
+      font-size: 2em;
+  }
+  .card__subtitle {
+      font-size: 1.7em;
   }
 /*   .author .author_image {
     float: none;
@@ -954,4 +999,19 @@ a:focus {
   } */
 }
 
-
+@media screen and (device-aspect-ratio: 40/71) {
+  .card{
+    width: 46%;
+    display: inline;
+    padding-bottom: 49%;
+  }
+  .card__container{
+      height:95%;
+  }
+  .card__title {
+      font-size: 2em;
+  }
+  .card__subtitle {
+      font-size: 1.7em;
+  }
+  }
