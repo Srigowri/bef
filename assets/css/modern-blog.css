@@ -295,8 +295,12 @@
   text-align: center;
   margin: 0 0 1.75rem;
 }
+.recent_box .recent_list .recent_post {
+  display:inline;
+}
 
-.recent_box .recent_list .recent_item {
+
+.recent_box .recent_list .recent_post .recent_item {
   position: relative;
   display: inline-block;
   width: 31%;
@@ -308,11 +312,11 @@
   background-repeat: no-repeat;
 }
 
-.recent_box .recent_list .recent_item:hover {
+.recent_box .recent_list .recent_post .recent_item:hover {
   opacity: .9;
 }
 
-.recent_box .recent_list .recent_item span {
+.recent_box .recent_list .recent_post .recent_item span {
   position: absolute;
   bottom: 10%;
   left: 2.5%;
@@ -320,15 +324,15 @@
   font-size: 1rem;
 }
 /* 
-.recent_box .recent_list .recent_item_post_1 {
+.recent_box .recent_list .recent_post .recent_item_post_1 {
   background-image: url(../images/canyon.jpg);
 }
 
-.recent_box .recent_list .recent_item_post_2 {
+.recent_box .recent_list .recent_post .recent_item_post_2 {
   background-image: url(../images/malaysia.jpg);
 }
 
-.recent_box .recent_list .recent_item_post_3 {
+.recent_box .recent_list .recent_post .recent_item_post_3 {
   background-image: url(../images/sweden.jpg);
 } */
 /* .main_footer {
@@ -927,7 +931,7 @@ a:focus {
   .recent_box .recent_title {
     font-size: 1.3rem;
   }
-  /* .recent_box .recent_list .recent_item {
+  /* .recent_box .recent_list .recent_post .recent_item {
     width: 100%;
     margin: 0 0 0.5rem;
   } */
@@ -939,15 +943,20 @@ a:focus {
   .card__container{
       height:95%;
   }
-   
-  .recent_box .recent_list .recent_item {
+     
+  .recent_box .recent_list .recent_post {
+    /* border: 1px solid red; */
+    background-color: rgba(250, 250, 250, 1);
+    display: block;
+}
+  .recent_box .recent_list .recent_post .recent_item {
     display:block;
     width:28%;
     height:80px;
     left:11px
   }
   
-  .recent_box .recent_list .recent_item span {
+  .recent_box .recent_list .recent_post .recent_item span {
     top:2%;
     left:100%;
     width:180%;
@@ -956,11 +965,7 @@ a:focus {
     font-weight: bold;
     color: black;
   }
-  
-  .recent_box .recent_list .recent_post {
-      /* border: 1px solid red; */
-      background-color: rgba(250, 250, 250, 1);
-  }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -1018,17 +1023,17 @@ a:focus {
   .card__subtitle {
     font-size: 0.8em;
   }
-  .recent_box .recent_list .recent_item a{
+  .recent_box .recent_list .recent_post .recent_item a{
     border: 1px solid black;
   }
-  .recent_box .recent_list .recent_item {
+  .recent_box .recent_list .recent_post .recent_item {
     display:block;
     width:28%;
     height:80px;
     left:11px
   }
   
-  .recent_box .recent_list .recent_item span {
+  .recent_box .recent_list .recent_post .recent_item span {
     top:2%;
     left:100%;
     width:180%;
