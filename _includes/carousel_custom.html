@@ -21,7 +21,7 @@ function startCarousel() {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " carousel_active";
-    timer = setTimeout(startCarousel, 1500);
+    timer = setTimeout(startCarousel, 2000);
 }
 function  plusSlides(position){
     document.getElementsByClassName("prev")[0].style.backgroundColor  = "transparent";
@@ -43,7 +43,7 @@ function moveNext(position) {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " carousel_active";
    
-    timer = setTimeout(startCarousel, 1500);
+    timer = setTimeout(startCarousel, 2000);
 }
 // function currentSlide(index) {
     
