@@ -151,7 +151,7 @@
 .post header .post_description {
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: 25px;
 }
 
 .post header .post_meta {
