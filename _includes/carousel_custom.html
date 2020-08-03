@@ -24,8 +24,8 @@ function startCarousel() {
     timer = setTimeout(startCarousel, 1500);
 }
 function  plusSlides(position){
-    document.getElementsByClassName("prev").style.opacity = 0;
-    document.getElementsByClassName("next").style.opacity = 0;
+    document.getElementsByClassName("prev")[0].style.opacity = 0;
+    document.getElementsByClassName("next")[0].style.opacity = 0;
     moveNext(position);
 }
 function moveNext(position) {
