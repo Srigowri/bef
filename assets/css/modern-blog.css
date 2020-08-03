@@ -842,12 +842,6 @@ a:focus {
   .card__container{
       height:80%;
   }
-  .card__title {
-      font-size: 2.5em;
-  }
-  .card__subtitle {
-      font-size: 2em;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -876,15 +870,9 @@ a:focus {
     font-size: 0.7rem;
   }
   .card{width: 46%;display: inline;padding-bottom: 48%;}
-.card__container{
-    height:95%;
-}
-.card__title {
-    font-size: 4em;
-}
-.card__subtitle {
-    font-size: 3em;
-}
+  .card__container{
+      height:95%;
+  }
 }
 
 
@@ -948,9 +936,6 @@ a:focus {
   .card__title {
       font-size: 2em;
   }
-  .card__subtitle {
-      font-size: 1.7em;
-  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -965,12 +950,6 @@ a:focus {
   .card{width: 46%;display: inline;padding-bottom: 48%;}
   .card__container{
       height:95%;
-  }
-  .card__title {
-      font-size: 2em;
-  }
-  .card__subtitle {
-      font-size: 1.7em;
   }
 /*   .author .author_image {
     float: none;
@@ -1007,11 +986,5 @@ a:focus {
   }
   .card__container{
       height:95%;
-  }
-  .card__title {
-      font-size: 2em;
-  }
-  .card__subtitle {
-      font-size: 1.7em;
   }
   }
