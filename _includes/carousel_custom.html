@@ -23,7 +23,12 @@ function startCarousel() {
     dots[slideIndex - 1].className += " carousel_active";
     timer = setTimeout(startCarousel, 1500);
 }
-function plusSlides(position) {
+function  plusSlides(position){
+    document.getElementsByClassName("prev").style.opacity = 0;
+    document.getElementsByClassName("next").style.opacity = 0;
+    moveNext(position);
+}
+function moveNext(position) {
     
     clearTimeout(timer);
     slideIndex +=position;
@@ -40,23 +45,23 @@ function plusSlides(position) {
    
     timer = setTimeout(startCarousel, 1500);
 }
-function currentSlide(index) {
+// function currentSlide(index) {
     
-    clearTimeout(timer);
-    if (index> slides.length) {index = 1;}
-    else if(index<1){index = slides.length}
+//     clearTimeout(timer);
+//     if (index> slides.length) {index = 1;}
+//     else if(index<1){index = slides.length}
     
-    slideIndex = index;
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" carousel_active", "");
-    }
-    slides[index-1].style.display = "block";  
-    dots[index-1].className += " carousel_active";
-    timer = setTimeout(startCarousel, 1500);
-}
+//     slideIndex = index;
+//     for (i = 0; i < slides.length; i++) {
+//        slides[i].style.display = "none";  
+//     }
+//     for (i = 0; i < dots.length; i++) {
+//         dots[i].className = dots[i].className.replace(" carousel_active", "");
+//     }
+//     slides[index-1].style.display = "block";  
+//     dots[index-1].className += " carousel_active";
+//     timer = setTimeout(startCarousel, 1500);
+// }
 
 </script>
 </head>
