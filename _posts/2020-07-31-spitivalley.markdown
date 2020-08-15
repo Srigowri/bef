@@ -5,7 +5,7 @@ subtitle: "A Beautiful shot during the night."
 data_yml_id : "spitivalley"
 author: "Srigowri"
 avatar: face.jpg
-img: himalayan.jpg  # Add image post (optional)
+thumbnail: thumbnail.jpg   # Add image post (optional)
 folder: /img_folder/spitivalley/
 date: 2020-07-31 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
