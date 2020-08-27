@@ -100,7 +100,7 @@ layout: compress
           <div class = "recent_post">
             <a href="{{ post.url | prepend: site.baseurl }}"
               class="recent_item"
-              style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+              style="background-image: url( {{ "/assets" | prepend: site.baseurl | append : post.thumbnail}} )">
                 <span>{{ post.title }}</span>
             </a>
           </div>
