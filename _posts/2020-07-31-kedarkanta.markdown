@@ -5,7 +5,7 @@ subtitle: "A Beautiful shot during the night."
 data_yml_id : "kedarkanta"
 author: "Srigowri"
 avatar: face.webp
-thumbnail: /img_folder/kedarkanta/thumbnail.webp   # Add image post (optional)
+thumbnail: /thumbnails/kedarkanta/thumbnail.webp   # Add image post (optional)
 folder: /img_folder/kedarkanta/
 date: 2020-07-31 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
