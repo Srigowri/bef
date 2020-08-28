@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: banner/banner_img # add banner video. Add your video file to the folder video
-banner-title: Just Be # add banner title
+banner-title: Just See # add banner title
 banner-desc: The hot dang direction you move in is more important than your ding dong speed # add banner description
 
 # Author settings
