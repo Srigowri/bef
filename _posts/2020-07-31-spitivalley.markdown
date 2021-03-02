@@ -7,9 +7,9 @@ author: "Srigowri"
 avatar: face.webp
 thumbnail: /img_folder/spitivalley/thumbnail.webp   # Add image post (optional)
 folder: /img_folder/spitivalley/
-date: 2020-07-31 12:55:00 +0300
+date: 2018-06-22 # 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Mountains]
+tag: [Mountains,Valley]
 ---
 Yet to fill content
 
