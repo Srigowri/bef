@@ -10,9 +10,7 @@
         <!-- cards -->
         <div class="wrapper">
             {% assign data_yml = site.data[page.data_yml_id] %}
-
             {% for data in data_yml %}
-            
             <div class="card" data-id="{{ data.anchor_tag }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
