@@ -7,9 +7,9 @@ author: "Srigowri"
 avatar: face.webp
 thumbnail: /thumbnails/andamans/thumbnail.webp  # Add image post (optional)
 folder: /img_folder/andamans/
-date: 2020-07-31 12:55:00 +0300
+date: 2018-09-12 #12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Mountains]
+tag: [Mountains,Ocean]
 ---
 Yet to fill content
 
