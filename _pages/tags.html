@@ -39,10 +39,12 @@ permalink: /tags/
             <span><a href="{{ post.url }}">{{ post.title }}</a></span>
             <small><span>{{ post.date | date_to_string }}</span></small>
         </div> -->
+
         <div class="chapter">
           <a href="{{post.url | prepend: site.baseurl}}">
-            {% if post.img %}
-              <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+            
+            {% if post.title %}
+              <img src={{ "/assets" | prepend: site.baseurl | append: post.thumbnail }} alt="{{post.title}}">
             {% endif %}
           </a>
           <a href="{{post.url | prepend: site.baseurl}}">
