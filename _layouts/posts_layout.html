@@ -17,10 +17,11 @@ layout: compress
         {% for data in data_yml %}
         <div class="carousel_img slideInLeft">
             <img src="{{ "/assets" | prepend: site.baseurl | append: page.folder | append : data.img}}" alt="{{data.title}}">	
-            <div class="post_description" >
+            <!-- Commented post descrition -->
+            <!-- <div class="post_description" >
               <p class="post_meta" style="display: inline;">{{data.date | date: '%d %b, %Y'}}:  {{data.caption}}</p>
-              <!-- <h1 class="post_title">{{data.caption}}</h1> -->
-            </div>
+              <h1 class="post_title">{{data.caption}}</h1>
+            </div> -->
         </div>	
         {% endfor %}
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
