@@ -5,17 +5,111 @@
   content: Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
   anchor_tag: "a"
   caption: Sikkim
+
 - title: Title2 
   subtitle: Subtitle2
   img: img2.webp
   date: 2020-07-31 12:55:00 +0300
-  content: Content for the card2Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  content: Content for the card2
   anchor_tag: "b"
   caption: Sikkim
+
 - title: Title3
   subtitle: Subtitle3
   img: img3.webp
   date: 2020-07-31 12:55:00 +0300
   content: Content for the card3
   anchor_tag: "c"
+  caption: Sikkim
+
+
+- title: Title 
+  subtitle: Subtitle
+  img: img4.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "d"
+  caption: Sikkim
+
+- title: Title2 
+  subtitle: Subtitle2
+  img: img5.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card2
+  anchor_tag: "e"
+  caption: Sikkim
+
+
+- title: Title3
+  subtitle: Subtitle3
+  img: img6.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card3
+  anchor_tag: "f"
+  caption: Sikkim
+
+- title: Title 
+  subtitle: Subtitle
+  img: img7.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "g"
+  caption: Sikkim
+
+- title: Title2 
+  subtitle: Subtitle2
+  img: img8.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card2
+  anchor_tag: "h"
+  caption: Sikkim
+
+- title: Title3
+  subtitle: Subtitle3
+  img: img9.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card3
+  anchor_tag: "i"
+  caption: Sikkim
+
+
+- title: Title 
+  subtitle: Subtitle
+  img: img10.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "j"
+  caption: Sikkim
+
+- title: Title2 
+  subtitle: Subtitle2
+  img: img11.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card2
+  anchor_tag: "k"
+  caption: Sikkim
+
+- title: Title3
+  subtitle: Subtitle3
+  img: img12.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card3
+  anchor_tag: "l"
+  caption: Sikkim
+
+- title: Title3
+  subtitle: Subtitle3
+  img: img13.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card3
+  anchor_tag: "m"
+  caption: Sikkim
+
+
+- title: Title2 
+  subtitle: Subtitle2
+  img: img14.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card2
+  anchor_tag: "n"
   caption: Sikkim

@@ -5,6 +5,7 @@
   content: Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
   anchor_tag: "a"
   caption: Darjeeling
+
 - title: Title2 
   subtitle: Subtitle2
   img: img2.webp
@@ -12,10 +13,52 @@
   content: Content for the card2Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
   anchor_tag: "b"
   caption: Darjeeling
+
 - title: Title3
   subtitle: Subtitle3
   img: img3.webp
   date: 2020-07-31 12:55:00 +0300
   content: Content for the card3
   anchor_tag: "c"
+  caption: Darjeeling
+
+
+- title: Title 
+  subtitle: Subtitle
+  img: img4.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "d"
+  caption: Darjeeling
+
+- title: Title2 
+  subtitle: Subtitle2
+  img: img5.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card2Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "e"
+  caption: Darjeeling
+
+- title: Title3
+  subtitle: Subtitle3
+  img: img6.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card3
+  anchor_tag: "f"
+  caption: Darjeeling
+
+- title: Title2 
+  subtitle: Subtitle2
+  img: img7.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card2Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1Content for the card1
+  anchor_tag: "g"
+  caption: Darjeeling
+
+- title: Title3
+  subtitle: Subtitle3
+  img: img8.webp
+  date: 2020-07-31 12:55:00 +0300
+  content: Content for the card3
+  anchor_tag: "h"
   caption: Darjeeling
