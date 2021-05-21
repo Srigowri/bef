@@ -40,18 +40,18 @@ permalink: /tags/
             <small><span>{{ post.date | date_to_string }}</span></small>
         </div> -->
         <div class="chapter">
-          <a href="{{post.url | prepend: site.baseurl}}">
+          <!-- <a href="{{post.url | prepend: site.baseurl}}"> -->
 
             {% if post.title %}
               <img src={{ "/assets" | prepend: site.baseurl | append: post.thumbnail }} alt="{{post.title}}">
             {% endif %}
-          </a>
-          <a href="{{post.url | prepend: site.baseurl}}">
+          <!-- </a> -->
+          <!-- <a href="{{post.url | prepend: site.baseurl}}"> -->
             <div class="chapter_inner">
               <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
               <h3 class="chapter_title">{{post.title}}</h3>
             </div>
-          </a>
+          <!-- </a> -->
         </div>
         {% endif %}{% endfor %}
       </div>
