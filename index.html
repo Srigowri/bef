@@ -4,16 +4,19 @@ layout: main
 
 {% for post in site.posts %}
   <div class="chapter">
-    <a href="{{post.url | prepend: site.baseurl}}">
+    <!-- <a href="{{post.url | prepend: site.baseurl}}"> -->
       {% if post.thumbnail %}
         <img src={{ "/assets/" | prepend: site.baseurl | append: post.thumbnail }} alt="{{post.title}}">
       {% endif %}
-    </a>
-    <a href="{{post.url | prepend: site.baseurl}}">
+    <!-- </a> -->
+    <!-- <a href="{{post.url | prepend: site.baseurl}}"> -->
       <div class="chapter_inner">
         <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
         <h3 class="chapter_title">{{post.title}}</h3>
       </div>
-    </a>
+    <!-- </a> -->
   </div>
 {% endfor %}
+
+
+<!-- Clickable -->
